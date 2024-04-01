@@ -1,0 +1,4776 @@
+[
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Security.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SportAcademy.BlazorApp.Server.DataApi.ViewModels.Identity.LoginViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Security.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SportAcademy.BlazorApp.Server.DataApi.ViewModels.Identity.RegisterViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.AdvisorSpecializationsController",
+    "Method": "GetAdvisorSpecializations",
+    "RelativePath": "api/AdvisorSpecializations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.AdvisorSpecialization, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.AdvisorSpecializationsController",
+    "Method": "PostAdvisorSpecialization",
+    "RelativePath": "api/AdvisorSpecializations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "advisorSpecialization",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.AdvisorSpecialization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.AdvisorSpecialization",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.AdvisorSpecializationsController",
+    "Method": "GetAdvisorSpecialization",
+    "RelativePath": "api/AdvisorSpecializations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.AdvisorSpecialization",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.AdvisorSpecializationsController",
+    "Method": "PutAdvisorSpecialization",
+    "RelativePath": "api/AdvisorSpecializations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "advisorSpecialization",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.AdvisorSpecialization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.AdvisorSpecializationsController",
+    "Method": "DeleteAdvisorSpecialization",
+    "RelativePath": "api/AdvisorSpecializations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ApplicantsController",
+    "Method": "GetApplicants",
+    "RelativePath": "api/Applicants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Applicant, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ApplicantsController",
+    "Method": "PostApplicant",
+    "RelativePath": "api/Applicants",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicant",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Applicant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Applicant",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ApplicantsController",
+    "Method": "GetApplicant",
+    "RelativePath": "api/Applicants/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Applicant",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ApplicantsController",
+    "Method": "PutApplicant",
+    "RelativePath": "api/Applicants/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "applicant",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Applicant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ApplicantsController",
+    "Method": "DeleteApplicant",
+    "RelativePath": "api/Applicants/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ApplicantsController",
+    "Method": "GetApplicantWithEvent",
+    "RelativePath": "api/Applicants/{id}/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Applicant",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ApplicantsController",
+    "Method": "GetApplicantsWithEvents",
+    "RelativePath": "api/Applicants/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Applicant, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ApplicantsController",
+    "Method": "Upload",
+    "RelativePath": "api/Applicants/Upload/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Server.ViewModels.UploadResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.AttendancesController",
+    "Method": "GetAttendances",
+    "RelativePath": "api/Attendances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Attendance, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.AttendancesController",
+    "Method": "PostAttendance",
+    "RelativePath": "api/Attendances",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "attendance",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Attendance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Attendance",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.AttendancesController",
+    "Method": "GetAttendance",
+    "RelativePath": "api/Attendances/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Attendance",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.AttendancesController",
+    "Method": "PutAttendance",
+    "RelativePath": "api/Attendances/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "attendance",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Attendance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.AttendancesController",
+    "Method": "DeleteAttendance",
+    "RelativePath": "api/Attendances/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Category, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CategoriesController",
+    "Method": "PostCategory",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Category",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CategoriesController",
+    "Method": "GetCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Category",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CategoriesController",
+    "Method": "PutCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "category",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CategoriesController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CategoriesController",
+    "Method": "GetCategoryWithPlayer",
+    "RelativePath": "api/Categories/{id}/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Category",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CategoriesController",
+    "Method": "GetCategoriesWithPlayers",
+    "RelativePath": "api/Categories/Players/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Category, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachesController",
+    "Method": "GetCoaches",
+    "RelativePath": "api/Coaches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Coach, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachesController",
+    "Method": "PostCoach",
+    "RelativePath": "api/Coaches",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coach",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Coach",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Coach",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachesController",
+    "Method": "GetCoach",
+    "RelativePath": "api/Coaches/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Coach",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachesController",
+    "Method": "PutCoach",
+    "RelativePath": "api/Coaches/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "coach",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Coach",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachesController",
+    "Method": "DeleteCoach",
+    "RelativePath": "api/Coaches/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachSpecializationsController",
+    "Method": "GetCoachSpecializations",
+    "RelativePath": "api/CoachSpecializations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.CoachSpecialization, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachSpecializationsController",
+    "Method": "PostCoachSpecialization",
+    "RelativePath": "api/CoachSpecializations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coachSpecialization",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachSpecialization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachSpecialization",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachSpecializationsController",
+    "Method": "GetCoachSpecialization",
+    "RelativePath": "api/CoachSpecializations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachSpecialization",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachSpecializationsController",
+    "Method": "PutCoachSpecialization",
+    "RelativePath": "api/CoachSpecializations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "coachSpecialization",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachSpecialization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachSpecializationsController",
+    "Method": "DeleteCoachSpecialization",
+    "RelativePath": "api/CoachSpecializations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachSportsController",
+    "Method": "GetCoachSports",
+    "RelativePath": "api/CoachSports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.CoachSport, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachSportsController",
+    "Method": "PostCoachSport",
+    "RelativePath": "api/CoachSports",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coachSport",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachSport",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachSport",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachSportsController",
+    "Method": "GetCoachSport",
+    "RelativePath": "api/CoachSports/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachSport",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachSportsController",
+    "Method": "PutCoachSport",
+    "RelativePath": "api/CoachSports/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "coachSport",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachSport",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachSportsController",
+    "Method": "DeleteCoachSport",
+    "RelativePath": "api/CoachSports/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachTeamsController",
+    "Method": "GetCoachTeams",
+    "RelativePath": "api/CoachTeams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.CoachTeam, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachTeamsController",
+    "Method": "PostCoachTeam",
+    "RelativePath": "api/CoachTeams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coachTeam",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachTeam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachTeam",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachTeamsController",
+    "Method": "GetCoachTeam",
+    "RelativePath": "api/CoachTeams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachTeam",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachTeamsController",
+    "Method": "PutCoachTeam",
+    "RelativePath": "api/CoachTeams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "coachTeam",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachTeam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachTeamsController",
+    "Method": "DeleteCoachTeam",
+    "RelativePath": "api/CoachTeams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachTypesController",
+    "Method": "GetCoachTypes",
+    "RelativePath": "api/CoachTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.CoachType, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachTypesController",
+    "Method": "PostCoachType",
+    "RelativePath": "api/CoachTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coachType",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachTypesController",
+    "Method": "GetCoachType",
+    "RelativePath": "api/CoachTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachTypesController",
+    "Method": "PutCoachType",
+    "RelativePath": "api/CoachTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "coachType",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CoachType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoachTypesController",
+    "Method": "DeleteCoachType",
+    "RelativePath": "api/CoachTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoursesController",
+    "Method": "GetCourses",
+    "RelativePath": "api/Courses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Course, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoursesController",
+    "Method": "PostCourse",
+    "RelativePath": "api/Courses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "course",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Course",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Course",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoursesController",
+    "Method": "GetCourse",
+    "RelativePath": "api/Courses/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Course",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoursesController",
+    "Method": "PutCourse",
+    "RelativePath": "api/Courses/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "course",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Course",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CoursesController",
+    "Method": "DeleteCourse",
+    "RelativePath": "api/Courses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CricketFormatsController",
+    "Method": "GetCricketFormats",
+    "RelativePath": "api/CricketFormats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.CricketFormat, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CricketFormatsController",
+    "Method": "PostCricketFormat",
+    "RelativePath": "api/CricketFormats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cricketFormat",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CricketFormat",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CricketFormat",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CricketFormatsController",
+    "Method": "GetCricketFormat",
+    "RelativePath": "api/CricketFormats/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CricketFormat",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CricketFormatsController",
+    "Method": "PutCricketFormat",
+    "RelativePath": "api/CricketFormats/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cricketFormat",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.CricketFormat",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.CricketFormatsController",
+    "Method": "DeleteCricketFormat",
+    "RelativePath": "api/CricketFormats/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EquipmentsController",
+    "Method": "GetEquipments",
+    "RelativePath": "api/Equipments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Equipment, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EquipmentsController",
+    "Method": "PostEquipment",
+    "RelativePath": "api/Equipments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipment",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Equipment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Equipment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EquipmentsController",
+    "Method": "GetEquipment",
+    "RelativePath": "api/Equipments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Equipment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EquipmentsController",
+    "Method": "PutEquipment",
+    "RelativePath": "api/Equipments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "equipment",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Equipment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EquipmentsController",
+    "Method": "DeleteEquipment",
+    "RelativePath": "api/Equipments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "GetEvents",
+    "RelativePath": "api/Events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Event, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "PostEvent",
+    "RelativePath": "api/Events",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "event",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Event",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Event",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "GetEvent",
+    "RelativePath": "api/Events/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Event",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "PutEvent",
+    "RelativePath": "api/Events/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "event",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Event",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "DeleteEvent",
+    "RelativePath": "api/Events/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "GetEventWithManager",
+    "RelativePath": "api/Events/{id}/Manager/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Event",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "GetEventWithSelectionPanel",
+    "RelativePath": "api/Events/{id}/SelectionPanel/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Event",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "GetEventsWithManagers",
+    "RelativePath": "api/Events/Manager/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Event, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "GetManagers",
+    "RelativePath": "api/Events/Managers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Manager, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "GetEventsWithSelectionPanel",
+    "RelativePath": "api/Events/SelectionPanel/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Event, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "GetSelectionPanels",
+    "RelativePath": "api/Events/SelectionPanels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.SelectionPanel, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "Upload",
+    "RelativePath": "api/Events/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Server.ViewModels.UploadResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.EventsController",
+    "Method": "Upload",
+    "RelativePath": "api/Events/Upload/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Server.ViewModels.UploadResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamResultsController",
+    "Method": "GetExamResults",
+    "RelativePath": "api/ExamResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.ExamResult, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamResultsController",
+    "Method": "PostExamResult",
+    "RelativePath": "api/ExamResults",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examResult",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamResultsController",
+    "Method": "GetExamResult",
+    "RelativePath": "api/ExamResults/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamResultsController",
+    "Method": "PutExamResult",
+    "RelativePath": "api/ExamResults/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "examResult",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamResultsController",
+    "Method": "DeleteExamResult",
+    "RelativePath": "api/ExamResults/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamsController",
+    "Method": "GetExams",
+    "RelativePath": "api/Exams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Exam, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamsController",
+    "Method": "PostExam",
+    "RelativePath": "api/Exams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exam",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Exam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Exam",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamsController",
+    "Method": "GetExam",
+    "RelativePath": "api/Exams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Exam",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamsController",
+    "Method": "PutExam",
+    "RelativePath": "api/Exams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "exam",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Exam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamsController",
+    "Method": "DeleteExam",
+    "RelativePath": "api/Exams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamTypeExamsController",
+    "Method": "GetExamTypeExams",
+    "RelativePath": "api/ExamTypeExams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.ExamTypeExam, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamTypeExamsController",
+    "Method": "PostExamTypeExam",
+    "RelativePath": "api/ExamTypeExams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examTypeExam",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamTypeExam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamTypeExam",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamTypeExamsController",
+    "Method": "GetExamTypeExam",
+    "RelativePath": "api/ExamTypeExams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamTypeExam",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamTypeExamsController",
+    "Method": "PutExamTypeExam",
+    "RelativePath": "api/ExamTypeExams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "examTypeExam",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamTypeExam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamTypeExamsController",
+    "Method": "DeleteExamTypeExam",
+    "RelativePath": "api/ExamTypeExams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamTypesController",
+    "Method": "GetExamTypes",
+    "RelativePath": "api/ExamTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.ExamType, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamTypesController",
+    "Method": "PostExamType",
+    "RelativePath": "api/ExamTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examType",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamTypesController",
+    "Method": "GetExamType",
+    "RelativePath": "api/ExamTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamTypesController",
+    "Method": "PutExamType",
+    "RelativePath": "api/ExamTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "examType",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.ExamType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ExamTypesController",
+    "Method": "DeleteExamType",
+    "RelativePath": "api/ExamTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ManagersController",
+    "Method": "GetManagers",
+    "RelativePath": "api/Managers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Manager, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ManagersController",
+    "Method": "PostManager",
+    "RelativePath": "api/Managers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "manager",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Manager",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Manager",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ManagersController",
+    "Method": "GetManager",
+    "RelativePath": "api/Managers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Manager",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ManagersController",
+    "Method": "PutManager",
+    "RelativePath": "api/Managers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "manager",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Manager",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ManagersController",
+    "Method": "DeleteManager",
+    "RelativePath": "api/Managers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ManagersController",
+    "Method": "GetManagerWithEvent",
+    "RelativePath": "api/Managers/{id}/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Manager",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ManagersController",
+    "Method": "GetManagersWithEvents",
+    "RelativePath": "api/Managers/Events/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Manager, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ManagersController",
+    "Method": "UploadManager",
+    "RelativePath": "api/Managers/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Server.ViewModels.UploadResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.ManagersController",
+    "Method": "Upload",
+    "RelativePath": "api/Managers/Upload/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Server.ViewModels.UploadResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.MedicalAdvisorsController",
+    "Method": "GetMedicalAdvisors",
+    "RelativePath": "api/MedicalAdvisors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.MedicalAdvisor, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.MedicalAdvisorsController",
+    "Method": "PostMedicalAdvisor",
+    "RelativePath": "api/MedicalAdvisors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicalAdvisor",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.MedicalAdvisor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.MedicalAdvisor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.MedicalAdvisorsController",
+    "Method": "GetMedicalAdvisor",
+    "RelativePath": "api/MedicalAdvisors/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.MedicalAdvisor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.MedicalAdvisorsController",
+    "Method": "PutMedicalAdvisor",
+    "RelativePath": "api/MedicalAdvisors/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "medicalAdvisor",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.MedicalAdvisor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.MedicalAdvisorsController",
+    "Method": "DeleteMedicalAdvisor",
+    "RelativePath": "api/MedicalAdvisors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.MedicalAdvisorSpecializationsController",
+    "Method": "GetMedicalAdvisorSpecializations",
+    "RelativePath": "api/MedicalAdvisorSpecializations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.MedicalAdvisorSpecialization, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.MedicalAdvisorSpecializationsController",
+    "Method": "PostMedicalAdvisorSpecialization",
+    "RelativePath": "api/MedicalAdvisorSpecializations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicalAdvisorSpecialization",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.MedicalAdvisorSpecialization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.MedicalAdvisorSpecialization",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.MedicalAdvisorSpecializationsController",
+    "Method": "GetMedicalAdvisorSpecialization",
+    "RelativePath": "api/MedicalAdvisorSpecializations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.MedicalAdvisorSpecialization",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.MedicalAdvisorSpecializationsController",
+    "Method": "PutMedicalAdvisorSpecialization",
+    "RelativePath": "api/MedicalAdvisorSpecializations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "medicalAdvisorSpecialization",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.MedicalAdvisorSpecialization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.MedicalAdvisorSpecializationsController",
+    "Method": "DeleteMedicalAdvisorSpecialization",
+    "RelativePath": "api/MedicalAdvisorSpecializations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerCoachesController",
+    "Method": "GetPlayerCoaches",
+    "RelativePath": "api/PlayerCoaches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerCoach, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerCoachesController",
+    "Method": "PostPlayerCoach",
+    "RelativePath": "api/PlayerCoaches",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerCoach",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerCoach",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerCoach",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerCoachesController",
+    "Method": "GetPlayerCoach",
+    "RelativePath": "api/PlayerCoaches/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerCoach",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerCoachesController",
+    "Method": "PutPlayerCoach",
+    "RelativePath": "api/PlayerCoaches/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "playerCoach",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerCoach",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerCoachesController",
+    "Method": "DeletePlayerCoach",
+    "RelativePath": "api/PlayerCoaches/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerCoursesController",
+    "Method": "GetPlayerCourses",
+    "RelativePath": "api/PlayerCourses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerCourse, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerCoursesController",
+    "Method": "PostPlayerCourse",
+    "RelativePath": "api/PlayerCourses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerCourse",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerCourse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerCourse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerCoursesController",
+    "Method": "GetPlayerCourse",
+    "RelativePath": "api/PlayerCourses/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerCourse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerCoursesController",
+    "Method": "PutPlayerCourse",
+    "RelativePath": "api/PlayerCourses/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "playerCourse",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerCourse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerCoursesController",
+    "Method": "DeletePlayerCourse",
+    "RelativePath": "api/PlayerCourses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerExamsController",
+    "Method": "GetPlayerExams",
+    "RelativePath": "api/PlayerExams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerExam, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerExamsController",
+    "Method": "PostPlayerExam",
+    "RelativePath": "api/PlayerExams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerExam",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerExam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerExam",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerExamsController",
+    "Method": "GetPlayerExam",
+    "RelativePath": "api/PlayerExams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerExam",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerExamsController",
+    "Method": "PutPlayerExam",
+    "RelativePath": "api/PlayerExams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "playerExam",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerExam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerExamsController",
+    "Method": "DeletePlayerExam",
+    "RelativePath": "api/PlayerExams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolePlayersController",
+    "Method": "GetPlayerRolePlayers",
+    "RelativePath": "api/PlayerRolePlayers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerRolePlayer, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolePlayersController",
+    "Method": "PostPlayerRolePlayer",
+    "RelativePath": "api/PlayerRolePlayers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerRolePlayer",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerRolePlayer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerRolePlayer",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolePlayersController",
+    "Method": "GetPlayerRolePlayer",
+    "RelativePath": "api/PlayerRolePlayers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerRolePlayer",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolePlayersController",
+    "Method": "PutPlayerRolePlayer",
+    "RelativePath": "api/PlayerRolePlayers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "playerRolePlayer",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerRolePlayer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolePlayersController",
+    "Method": "DeletePlayerRolePlayer",
+    "RelativePath": "api/PlayerRolePlayers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolesController",
+    "Method": "GetPlayerRoles",
+    "RelativePath": "api/PlayerRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerRole, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolesController",
+    "Method": "PostPlayerRole",
+    "RelativePath": "api/PlayerRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerRole",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerRole",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolesController",
+    "Method": "GetPlayerRole",
+    "RelativePath": "api/PlayerRoles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerRole",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolesController",
+    "Method": "PutPlayerRole",
+    "RelativePath": "api/PlayerRoles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "playerRole",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolesController",
+    "Method": "DeletePlayerRole",
+    "RelativePath": "api/PlayerRoles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerRolesController",
+    "Method": "GetPlayerRolesWithPlayers",
+    "RelativePath": "api/PlayerRoles/PlayerRolePlayers/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerRole, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "GetPlayers",
+    "RelativePath": "api/Players",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Player, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "PostPlayer",
+    "RelativePath": "api/Players",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "player",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Player",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Player",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "GetPlayer",
+    "RelativePath": "api/Players/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Player",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "PutPlayer",
+    "RelativePath": "api/Players/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "player",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Player",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "DeletePlayer",
+    "RelativePath": "api/Players/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "GetPlayerWithPlayerStatistic",
+    "RelativePath": "api/Players/{id}/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Player",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Players/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Category, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "GetPlayersWithCategories",
+    "RelativePath": "api/Players/Category/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Player, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "GetPlayersWithPlayerStatistics",
+    "RelativePath": "api/Players/PlayerStatistics/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Player, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "GetPlayersWithTeams",
+    "RelativePath": "api/Players/Team/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Player, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "GetTeams",
+    "RelativePath": "api/Players/Teams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Team, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "Upload",
+    "RelativePath": "api/Players/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Server.ViewModels.UploadResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayersController",
+    "Method": "Upload",
+    "RelativePath": "api/Players/Upload/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Server.ViewModels.UploadResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerSportsController",
+    "Method": "GetPlayerSports",
+    "RelativePath": "api/PlayerSports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerSport, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerSportsController",
+    "Method": "PostPlayerSport",
+    "RelativePath": "api/PlayerSports",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerSport",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerSport",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerSport",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerSportsController",
+    "Method": "GetPlayerSport",
+    "RelativePath": "api/PlayerSports/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerSport",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerSportsController",
+    "Method": "PutPlayerSport",
+    "RelativePath": "api/PlayerSports/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "playerSport",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerSport",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerSportsController",
+    "Method": "DeletePlayerSport",
+    "RelativePath": "api/PlayerSports/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStateDetailsController",
+    "Method": "GetPlayerStateDetails",
+    "RelativePath": "api/PlayerStateDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerStateDetail, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStateDetailsController",
+    "Method": "PostPlayerStateDetail",
+    "RelativePath": "api/PlayerStateDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerStateDetail",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerStateDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerStateDetail",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStateDetailsController",
+    "Method": "GetPlayerStateDetail",
+    "RelativePath": "api/PlayerStateDetails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerStateDetail",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStateDetailsController",
+    "Method": "PutPlayerStateDetail",
+    "RelativePath": "api/PlayerStateDetails/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "playerStateDetail",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerStateDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStateDetailsController",
+    "Method": "DeletePlayerStateDetail",
+    "RelativePath": "api/PlayerStateDetails/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStatisticsController",
+    "Method": "GetPlayerStatistics",
+    "RelativePath": "api/PlayerStatistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerStatistic, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStatisticsController",
+    "Method": "PostPlayerStatistic",
+    "RelativePath": "api/PlayerStatistics",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerStatistic",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerStatistic",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerStatistic",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStatisticsController",
+    "Method": "GetPlayerStatistic",
+    "RelativePath": "api/PlayerStatistics/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerStatistic",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStatisticsController",
+    "Method": "PutPlayerStatistic",
+    "RelativePath": "api/PlayerStatistics/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "playerStatistic",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerStatistic",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStatisticsController",
+    "Method": "DeletePlayerStatistic",
+    "RelativePath": "api/PlayerStatistics/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerStatisticsController",
+    "Method": "GetPlayerStatisticsWithPLayerStateDetails",
+    "RelativePath": "api/PlayerStatistics/PLayerStateDetails/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerStatistic, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerTrainingSessionsController",
+    "Method": "GetPlayerTrainingSessions",
+    "RelativePath": "api/PlayerTrainingSessions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.PlayerTrainingSession, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerTrainingSessionsController",
+    "Method": "PostPlayerTrainingSession",
+    "RelativePath": "api/PlayerTrainingSessions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerTrainingSession",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerTrainingSession",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerTrainingSession",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerTrainingSessionsController",
+    "Method": "GetPlayerTrainingSession",
+    "RelativePath": "api/PlayerTrainingSessions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerTrainingSession",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerTrainingSessionsController",
+    "Method": "PutPlayerTrainingSession",
+    "RelativePath": "api/PlayerTrainingSessions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "playerTrainingSession",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.PlayerTrainingSession",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.PlayerTrainingSessionsController",
+    "Method": "DeletePlayerTrainingSession",
+    "RelativePath": "api/PlayerTrainingSessions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectedPlayersController",
+    "Method": "GetSelectedPlayers",
+    "RelativePath": "api/SelectedPlayers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.SelectedPlayer, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectedPlayersController",
+    "Method": "PostSelectedPlayer",
+    "RelativePath": "api/SelectedPlayers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "selectedPlayer",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.SelectedPlayer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.SelectedPlayer",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectedPlayersController",
+    "Method": "GetSelectedPlayer",
+    "RelativePath": "api/SelectedPlayers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.SelectedPlayer",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectedPlayersController",
+    "Method": "PutSelectedPlayer",
+    "RelativePath": "api/SelectedPlayers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "selectedPlayer",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.SelectedPlayer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectedPlayersController",
+    "Method": "DeleteSelectedPlayer",
+    "RelativePath": "api/SelectedPlayers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectedPlayersController",
+    "Method": "GetSelectedPlayerWithEvent",
+    "RelativePath": "api/SelectedPlayers/{id}/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.SelectedPlayer",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectedPlayersController",
+    "Method": "GetSelectedPlayersWithEvents",
+    "RelativePath": "api/SelectedPlayers/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.SelectedPlayer, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectionPanelsController",
+    "Method": "GetSelectionPanels",
+    "RelativePath": "api/SelectionPanels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.SelectionPanel, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectionPanelsController",
+    "Method": "PostSelectionPanel",
+    "RelativePath": "api/SelectionPanels",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "selectionPanel",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.SelectionPanel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.SelectionPanel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectionPanelsController",
+    "Method": "GetSelectionPanel",
+    "RelativePath": "api/SelectionPanels/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.SelectionPanel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectionPanelsController",
+    "Method": "PutSelectionPanel",
+    "RelativePath": "api/SelectionPanels/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "selectionPanel",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.SelectionPanel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectionPanelsController",
+    "Method": "DeleteSelectionPanel",
+    "RelativePath": "api/SelectionPanels/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectionPanelsController",
+    "Method": "GetCoaches",
+    "RelativePath": "api/SelectionPanels/Coaches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Coach, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectionPanelsController",
+    "Method": "GetSelectionPanelsWithEvents",
+    "RelativePath": "api/SelectionPanels/Events/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.SelectionPanel, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SelectionPanelsController",
+    "Method": "GetMedicalAdvisors",
+    "RelativePath": "api/SelectionPanels/MedicalAdvisors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.MedicalAdvisor, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SportsController",
+    "Method": "GetSports",
+    "RelativePath": "api/Sports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Sport, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SportsController",
+    "Method": "PostSport",
+    "RelativePath": "api/Sports",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sport",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Sport",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Sport",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SportsController",
+    "Method": "GetSport",
+    "RelativePath": "api/Sports/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Sport",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SportsController",
+    "Method": "PutSport",
+    "RelativePath": "api/Sports/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sport",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Sport",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SportsController",
+    "Method": "DeleteSport",
+    "RelativePath": "api/Sports/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SportsController",
+    "Method": "GetSportWithTeam",
+    "RelativePath": "api/Sports/{id}/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Sport",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.SportsController",
+    "Method": "GetSportsWithTeams",
+    "RelativePath": "api/Sports/Teams/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Sport, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TeamsController",
+    "Method": "GetTeams",
+    "RelativePath": "api/Teams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Team, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TeamsController",
+    "Method": "PostTeam",
+    "RelativePath": "api/Teams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "team",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Team",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Team",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TeamsController",
+    "Method": "GetTeam",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Team",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TeamsController",
+    "Method": "PutTeam",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "team",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.Team",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TeamsController",
+    "Method": "DeleteTeam",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TeamsController",
+    "Method": "GetTeamsWithPlayers",
+    "RelativePath": "api/Teams/Players/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Team, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TeamsController",
+    "Method": "GetSport",
+    "RelativePath": "api/Teams/Sports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Sport, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TeamsController",
+    "Method": "GetTeamsWithSports",
+    "RelativePath": "api/Teams/Sports/Include",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Team, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TeamsController",
+    "Method": "Upload",
+    "RelativePath": "api/Teams/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Server.ViewModels.UploadResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TeamsController",
+    "Method": "Upload",
+    "RelativePath": "api/Teams/Upload/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Server.ViewModels.UploadResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TrainingSessionsController",
+    "Method": "GetTrainingSessions",
+    "RelativePath": "api/TrainingSessions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.TrainingSession, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TrainingSessionsController",
+    "Method": "PostTrainingSession",
+    "RelativePath": "api/TrainingSessions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trainingSession",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.TrainingSession",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.TrainingSession",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TrainingSessionsController",
+    "Method": "GetTrainingSession",
+    "RelativePath": "api/TrainingSessions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SportAcademy.BlazorApp.Shared.Models.TrainingSession",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TrainingSessionsController",
+    "Method": "PutTrainingSession",
+    "RelativePath": "api/TrainingSessions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "trainingSession",
+        "Type": "SportAcademy.BlazorApp.Shared.Models.TrainingSession",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TrainingSessionsController",
+    "Method": "DeleteTrainingSession",
+    "RelativePath": "api/TrainingSessions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SportAcademy.BlazorApp.Server.Controllers.Data.TrainingSessionsController",
+    "Method": "GetCoaches",
+    "RelativePath": "api/TrainingSessions/Coaches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SportAcademy.BlazorApp.Shared.Models.Coach, SportAcademy.BlazorApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
